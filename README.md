@@ -8,8 +8,12 @@ In some cases, as things go in real world projects, data is collected, aggregate
 If you're lucky, you might be able to surrogate your previous data with a synthetic set based on some aggregate information such as your sample means. It's not perfect, and you lose a lot of information this way, but it will at least give you some core results that might still be informative of data that's otherwise lost forever. 
 
 ## Using this repository
-I recommend just reading the notebooks in the root directory. That's the purpose of setting up this repository at all, on my part. 
+I recommend just reading the ANOVA notebook in the root directory, which is written to explain the process of computing a surrogate based analysis of variance. That's the purpose of setting up this repository at all, on my part. 
 
 ## Closing
 
 I hope you never have to use anything like this, but maybe it'll help. 
+
+## References
+
+Larson, D. A. (1992). Analysis of variance with just summary statistics as input. The American Statistician, 46(2), 151-152.
